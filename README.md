@@ -8,7 +8,7 @@ This repository provides middleware for user authentication in Node.js applicati
 For detailed information about each middleware and their functionalities, refer to the sections below.
 
 ## Installation
-
+```
 
 Follow these steps to clone the repository and install dependencies:
 ```
