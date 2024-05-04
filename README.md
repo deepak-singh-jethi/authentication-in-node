@@ -1,4 +1,54 @@
 
+**Instructions:**
+
+1. Clone the repository:
+```bash
+git clone https://github.com/deepak-singh-jethi/authentication-in-node.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd authentication-in-node
+```
+
+3. Install dependencies using npm:
+```bash
+npm install
+```
+
+**README.md:**
+
+```markdown
+# Node.js Authentication Middleware
+
+This repository contains Node.js middleware for user authentication.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/deepak-singh-jethi/authentication-in-node.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd authentication-in-node
+   ```
+
+3. Install dependencies using npm:
+   ```bash
+   npm install
+   ```
+
+## Overview
+
+This repository provides middleware for user signup, signin, protecting routes, restricting access based on user roles, and handling forgot passwords.
+
+For detailed information about each middleware and their functionalities, refer to the code and comments in the repository.
+
+```
+
+Feel free to modify the README as needed for your project!
 
 ---
 
