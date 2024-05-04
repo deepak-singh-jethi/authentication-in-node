@@ -27,6 +27,11 @@ Follow these steps to clone the repository and install dependencies:
    ```bash
    npm install
    ```
+   
+5. Start local Node server:
+   ```bash
+   npm start
+   ``` 
 
 ## Signup Middleware
 
