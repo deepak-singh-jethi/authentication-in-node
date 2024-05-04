@@ -1,4 +1,4 @@
-Sure, here's the content formatted for easy copying and pasting into a README.md file:
+
 
 ---
 
@@ -78,4 +78,4 @@ Sure, here's the content formatted for easy copying and pasting into a README.md
 - Sends the generated reset token to the user via email, allowing them to reset their password securely.
 - Utilizes an email service or SMTP server to send the reset token email to the user's registered email address.
 
-Feel free to adjust the formatting or add more details as needed for your README.md file.
+
