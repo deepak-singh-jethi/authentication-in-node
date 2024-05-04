@@ -74,6 +74,7 @@ userSchema.methods.changePasswordAfter = function (JWTTimeStamp) {
   }
   return false;
 };
+// create password reset token
 userSchema.methods.createPasswordResetToken = function () {
   const resetToken = crypto.randomBytes(32).toString('hex');
 

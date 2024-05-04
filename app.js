@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const AppError = require('./util/AppError');
-const globalErrorController = require('./controllers/errorController');
+const errorController = require('./controllers/errorController');
 
 const app = express();
 
