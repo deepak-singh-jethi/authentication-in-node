@@ -16,29 +16,6 @@ cd authentication-in-node
 npm install
 ```
 
-**README.md:**
-
-```markdown
-# Node.js Authentication Middleware
-
-This repository contains Node.js middleware for user authentication.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/deepak-singh-jethi/authentication-in-node.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd authentication-in-node
-   ```
-
-3. Install dependencies using npm:
-   ```bash
-   npm install
-   ```
 
 ## Overview
 
