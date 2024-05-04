@@ -1,4 +1,4 @@
-```
+
 # Node.js Authentication Middleware
 
 ## Overview
