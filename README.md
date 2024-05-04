@@ -14,16 +14,17 @@ Follow these steps to clone the repository and install dependencies:
 ```
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/deepak-singh-jethi/authentication-in-node.git
    ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
    cd authentication-in-node
    ```
 
-3. Install dependencies using npm:
+4. Install dependencies using npm:
    ```bash
    npm install
    ```
