@@ -12,6 +12,7 @@ For detailed information about each middleware and their functionalities, refer 
 Follow these steps to clone the repository and install dependencies:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/deepak-singh-jethi/authentication-in-node.git
    ```
