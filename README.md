@@ -10,10 +10,7 @@ For detailed information about each middleware and their functionalities, refer 
 ## Installation
 
 Follow these steps to clone the repository and install dependencies:
-```
 
-
-```
 
 1. Clone the repository:
    
