@@ -28,18 +28,17 @@ Follow these steps to clone the repository and install dependencies:
    npm install
    ```
    
-5. Start local Node server:
-   ```bash
-   npm start
-   ```
-6. update config.env file
+
+5. update config.env file
+   
+   ### NOTE- Replace with your data 
    
     ```bash
     NODE_ENV=development
     PORT=3000
     USER=username   
     DATABASE_URL=your_mongoDb_database_URL
-    DATA_PASSWORD=databasePassword
+    DATA_PASSWORD=data_base_Password
     JWT_SECRET_KEY=any 32 character secret key of your choice
     JWT_EXPIRES_IN=90d
     EMAIL_USERNAME=Generate Your Own Ethereal Mail username
@@ -48,6 +47,10 @@ Follow these steps to clone the repository and install dependencies:
     EMAIL_PORT=587
 
    ```
+7. Start local Node server:
+   ```bash
+   npm start
+   ```    
    
 
 ## Signup Middleware
