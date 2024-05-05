@@ -31,7 +31,7 @@ Follow these steps to clone the repository and install dependencies:
 
 5. update config.env file
    
-   # NOTE- Replace with your data 
+   NOTE- Replace with your data 
    
     ```bash
     NODE_ENV=development
