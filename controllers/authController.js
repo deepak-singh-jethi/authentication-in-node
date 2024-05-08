@@ -5,7 +5,6 @@ const catchAsync = require('../util/catchAsync');
 const AppError = require('../util/appError');
 const jwt = require('jsonwebtoken');
 const sendEmail = require('../util/email');
-const { create } = require('../models/tourModel');
 
 const signToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET_KEY, {
@@ -207,8 +206,6 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
 exports.updatePassword = catchAsync(async (req, res, next) => {
   // * 1) get user from collection
   const user = await User.findById(req.user.id).select('+password');
-
-  console.log({ user });
 
   // * 2) check if posted current password is correct
   if (!(await user.correctPassword(req.body.passwordCurrent, user.password))) {

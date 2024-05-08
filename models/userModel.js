@@ -73,6 +73,13 @@ userSchema.pre('save', function (next) {
   next();
 });
 
+// ! middleware function to hide inactive users
+
+userSchema.pre(/^find/, function (next) {
+  this.find({ active: { $ne: false } });
+  next();
+});
+
 //  ! check if password is correct
 userSchema.methods.correctPassword = async function (
   inputPassword,
